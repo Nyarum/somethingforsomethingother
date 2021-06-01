@@ -8,10 +8,6 @@ import (
 	"net/http"
 )
 
-var (
-	customClient = &http.Client{}
-)
-
 func RequestWithMD5Response(address string) (md5Resp string, err error) {
 	req, err := http.NewRequest("GET", address, nil)
 	if err != nil {

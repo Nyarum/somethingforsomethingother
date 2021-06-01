@@ -15,7 +15,9 @@ http://www.adjust.com 53811605a6fe178692408cbbbb82bb26
 http://google.com e0381ef26a5c1694a2992dd955f322e7
 ```
 
-# Example 2 (You can control maximum value of parallel requests, by default it equal to 10)
+# Example 2
+You can control maximum value of parallel requests, by default it equal to 10
+
 Let's run it throught next command - `make example2` and in output you should see flag to set another value of parallel requests
 
 You will see something like:
